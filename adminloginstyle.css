@@ -1,0 +1,118 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', monospace;
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header {
+    padding: 10px 0;
+}
+
+
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: auto;
+}
+
+.box {
+    position: relative;
+    width: 500px;
+    max-width: 100%;
+    margin: 2px;
+    padding: 5px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #81e60d;
+    overflow: hidden;
+}
+
+.box form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box form .form-group {
+    width: 90%;
+    position: relative;
+    background: #e11944;
+    padding: 2%;
+    border-radius: 4px;
+    margin: 10px;
+}
+
+.box form h2 {
+    color: #fff;
+    text-align: center;
+    font-size: 2em;
+    letter-spacing: 0.1em;
+}
+
+.box form label {
+    display: block;
+    color: #e9f2f4;
+    margin-bottom: 10px;
+}
+
+.box form input {
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+.box form input[type="text"],
+.box form input[type="email"],
+.box form input[type="password"] {
+    width: 100%;
+    padding: 5px;
+    cursor: pointer;
+    background-color: #dae0fa;
+    font-size: 16px;
+    border-radius: 5px;
+    letter-spacing: 0.05em;
+    margin-top: 10px;
+}
+.box form .checkbox{
+    font-size:medium;
+    color:aqua;
+}
+.box form  .links a{
+    color: rgb(71, 55, 247);
+    font-size: medium;
+}
+
+.box form .links a:hover {
+    color: red;
+}
+.box form .register_links{
+    font-size: 20px;
+    color:azure;
+
+}
+.box form .register_links a:hover {
+    text-decoration: underline;
+    color: red;
+}
+
+.box form input[type="submit"],
+.box form input[type="reset"] {
+    width: 100%;
+    background: #16116e;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 10px;
+    padding: 10px 70px;
+    margin-top: 10px;
+}
+
+.box form input[type="submit"]:active,
+.box form input[type="reset"]:active {
+    opacity: 0.8;
+}

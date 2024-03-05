@@ -1,0 +1,25 @@
+Web Pages
+**Home Page
+**sign up/sign In Page
+**Contact Us
+**Doctor Handling
+**Appoinment Handling
+**Medical Report Handling
+
+
+
+
+css for modify webpages
+
+
+
+
+Connecting DataBase With PHP
+
+Create database , Tables
+connnection to database	
+retrive data
+insert data
+update data
+delete data
+
